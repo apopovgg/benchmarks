@@ -32,13 +32,22 @@
     <None Update="libs\ignite-core-2.4.0-SNAPSHOT.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="libs\ignite-core-2.5.0-SNAPSHOT.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="libs\ignite-indexing-2.4.0-SNAPSHOT.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="libs\ignite-indexing-2.5.0-SNAPSHOT.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="libs\ignite-shmem-1.0.0.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="libs\ignite-spring-2.4.0-SNAPSHOT.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="libs\ignite-spring-2.5.0-SNAPSHOT.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="libs\lucene-analyzers-common-5.5.2.jar">

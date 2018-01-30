@@ -10,6 +10,7 @@ namespace Core.Benchmarks.Barclays.Models
         public int TotalObjects { get; }
         public int TargetCount { get; }
         public int BatchSize { get; }
+        public bool SingleOperationsOnly { get; }
 
         public static Lazy<Params> Instance = new Lazy<Params>(() => new Params());
 
@@ -25,6 +26,7 @@ namespace Core.Benchmarks.Barclays.Models
             TotalObjects = int.Parse(cfg["TotalObjects"]);
             TargetCount = int.Parse(cfg["TargetCount"]);
             BatchSize = int.Parse(cfg["BatchSize"]);
+            SingleOperationsOnly = bool.Parse(cfg["SingleOperationsOnly"]);
         }
     }
 }

@@ -1,2 +1,7 @@
 /BenchmarksForBarclays/BenchmarksForBarclays/obj
 /BenchmarksForBarclays/BenchmarksForBarclays/bin
+/Core.Benchmarks.Barclays/Core.Benchmarks.Barclays/obj
+/Core.Benchmarks.Barclays/Core.Benchmarks.Barclays/bin
+/Core.Benchmarks.Barclays/results
+/Core.Benchmarks.Barclays/Core.Benchmarks.Barclays/BenchmarkDotNet.Artifacts
+/Core.Benchmarks.Barclays/.vs
