@@ -5,3 +5,7 @@
 /Core.Benchmarks.Barclays/results
 /Core.Benchmarks.Barclays/Core.Benchmarks.Barclays/BenchmarkDotNet.Artifacts
 /Core.Benchmarks.Barclays/.vs
+/Core.Benchmarks.Barclays.8.1.1/packages
+/Core.Benchmarks.Barclays.8.1.1/results
+/Core.Benchmarks.Barclays.8.1.1/Core.Benchmarks.Barclays.8.1.1/bin
+/Core.Benchmarks.Barclays.8.1.1/Core.Benchmarks.Barclays.8.1.1/obj
