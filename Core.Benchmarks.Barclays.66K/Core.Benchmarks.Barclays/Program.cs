@@ -26,8 +26,10 @@ namespace Core.Benchmarks.Barclays
                     .WithRemoveOutliers(false));
 
 
-            BenchmarkRunner.Run<Thin.PutBenchmark>(config);
-            BenchmarkRunner.Run<Thick.PutBenchmark>(config);
+            //BenchmarkRunner.Run<Thin.PutBenchmark>(config);
+            //BenchmarkRunner.Run<Thick.PutBenchmark>(config);
+            BenchmarkRunner.Run<Thin.GetBenchmark>(config);
+            BenchmarkRunner.Run<Thick.GetBenchmark>(config);
         }
     }
 }
